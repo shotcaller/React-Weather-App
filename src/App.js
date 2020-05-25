@@ -37,7 +37,7 @@ export default class App extends Component {
                     }
                     else {
                     e.persist()
-                    const data = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${e.target.value}&units=metric&appid=${apiKey}`);
+                    const data = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${e.target.value}&units=metric&appid=${apiKey}`);
                     const openWeather = await data.json()
                     console.log(openWeather)
                     if(openWeather.cod === '404'){

@@ -3,7 +3,7 @@ import './App.css'
 import Location from './Location'
 import Weather from './Weather'
 
-const apiKey = 'fa699bb89b8d85c2ee24473c0163b7cd';
+const apiKey = 'd1deecf72f8667c78d5b1384686ec416';
 
 export default class App extends Component {
 
